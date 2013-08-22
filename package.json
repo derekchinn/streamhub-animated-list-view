@@ -1,0 +1,19 @@
+{
+    "name":"streamhub-animated-feed-view",
+    "description":"Livefyre Streamhub Feed View module that animates the insertion of new content in cool ways",
+    "author":"Livefyre <support@livefyre.com>",
+    "contributors":{
+        "name":"Derek Chinn",
+        "email":"derek@livefyre.com"
+    },
+    "version":"0.0.0",
+    "devDependencies":{
+        "bower":"1.0.0",
+        "http-server":"*",
+        "requirejs":"~2.1.6"
+    },
+    "scripts":{
+        "postinstall":"./node_modules/bower/bin/bower install",
+        "start":"./node_modules/http-server/bin/http-server ."
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name":"streamhub-animated-feed-view",
+    "version":"0.0.0",
+    "main":[
+        "src/animated-list-view.js"
+    ],
+    "dependencies":{
+        "streamhub-sdk":"git@github.com:Livefyre/streamhub-sdk.git",
+        "jquery":"1.x",
+        "inherits":"git@github.com:Livefyre/inherits.git"
+    }
+}
